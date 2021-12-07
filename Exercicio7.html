@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo d IMC</title>
+</head>
+<body>
+    <script type="text/javascript">
+       
+             const quebraDeLinha = function(){
+                 document.write("</br>")
+             }
+
+        const calcularImc = function(nome, peso, altura){
+            const imc = peso / (altura*altura)
+            document.write(nome , "seu IMC calculado é: ", Math.round(imc) )
+
+        }
+        
+        calcularImc("Bruna ", 59, 1.71)
+        quebraDeLinha()
+        calcularImc("Rebeca ", 89, 1.51)
+        quebraDeLinha()
+        calcularImc("Flavio ", 61, 1.65)
+        quebraDeLinha()
+        calcularImc("Marian a", 59, 1.69)
+        quebraDeLinha()
+        calcularImc("Julio ", 90, 1.80)
+      
+        
+    </script>
+</body>
+</html>
